@@ -1,0 +1,63 @@
+[debug] [2021-04-29T22:45:28.707Z] ----------------------------------------------------------------------
+[debug] [2021-04-29T22:45:28.711Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Manuel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-29T22:45:28.712Z] CLI Version:   9.10.0
+[debug] [2021-04-29T22:45:28.712Z] Platform:      win32
+[debug] [2021-04-29T22:45:28.712Z] Node Version:  v14.16.0
+[debug] [2021-04-29T22:45:28.713Z] Time:          Thu Apr 29 2021 15:45:28 GMT-0700 (Pacific Daylight Time)
+[debug] [2021-04-29T22:45:28.713Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-29T22:45:28.721Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-29T22:45:28.722Z] > authorizing via signed-in user (manuelheav32@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Manuel\Desktop\Clever Programmer\facebook-messenger-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-04-29T22:45:39.893Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-04-29T22:45:40.735Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-04-29T22:45:40.735Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project facebook-messenger-clone-cd66b (Facebook-messenger-clone) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-04-29T22:46:41.520Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-04-29T22:46:41.921Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-04-29T22:46:41.923Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.4.3","browserURL":"https://www.gstatic.com/firebasejs/8.4.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.4.3/firebase.tgz"},"live":{"version":"8.4","browserURL":"https://www.gstatic.com/firebasejs/live/8.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.4/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.4.3/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.4.3/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.4.3/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.4.3/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.4.3/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.4.3/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Manuel\Desktop\Clever Programmer\facebook-messenger-clone 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=4168342&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-04-29T22:46:55.999Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"d92f6d96151e8848f4f8","redirect_uri":"http://localhost:9005","state":"4168342"}
+[debug] [2021-04-29T22:46:56.545Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Thu, 29 Apr 2021 22:46:58 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"25aae522f56f1310392902109ef8a733\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"0B33:28CA:BDA5EA:C52295:608B3762"}
+[debug] [2021-04-29T22:46:56.560Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-04-29T22:46:57.116Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-04-29T22:46:57.116Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Manuel-heav","id":66178225,"node_id":"MDQ6VXNlcjY2MTc4MjI1","avatar_url":"https://avatars.githubusercontent.com/u/66178225?v=4","gravatar_id":"","url":"https://api.github.com/users/Manuel-heav","html_url":"https://github.com/Manuel-heav","followers_url":"https://api.github.com/users/Manuel-heav/followers","following_url":"https://api.github.com/users/Manuel-heav/following{/other_user}","gists_url":"https://api.github.com/users/Manuel-heav/gists{/gist_id}","starred_url":"https://api.github.com/users/Manuel-heav/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Manuel-heav/subscriptions","organizations_url":"https://api.github.com/users/Manuel-heav/orgs","repos_url":"https://api.github.com/users/Manuel-heav/repos","events_url":"https://api.github.com/users/Manuel-heav/events{/privacy}","received_events_url":"https://api.github.com/users/Manuel-heav/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":"Eager to learn more and more","twitter_username":null,"public_repos":9,"public_gists":0,"followers":6,"following":6,"created_at":"2020-05-30T17:24:50Z","updated_at":"2021-04-29T22:46:57Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":23437,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Manuel-heav 
+[info] 
+[debug] [2021-04-29T22:47:22.664Z] >>> [apiv2][query] GET https://api.github.com/repos/manuel-heav//actions/secrets/public-key type=owner
+[debug] [2021-04-29T22:47:23.130Z] <<< [apiv2][status] GET https://api.github.com/repos/manuel-heav//actions/secrets/public-key 404
+[debug] [2021-04-29T22:47:23.131Z] <<< [apiv2][body] GET https://api.github.com/repos/manuel-heav//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
